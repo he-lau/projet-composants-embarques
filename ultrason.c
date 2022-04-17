@@ -3,9 +3,6 @@
 //////////////////////////////////////////////////////////////////////////
 
 
-
-// char/ int : the difference is the size in byte of the variable, and from there the different values the variable can hold.
-
                       /*
                         Library :
                                 UART
@@ -73,7 +70,7 @@
       void afficheNombre(char nb){
            char chiffre0,chiffre1,chiffre2,chiffre3;
 
-           // on décompose le nombre digit par digit
+           // on dÃ©compose le nombre digit par digit
 
            chiffre3 = nb/1000;
            nb -= chiffre3*1000;
@@ -104,7 +101,7 @@
 
 void main(void) {
 
-        // déclaration des var en amont sinon ; invalid expression
+        // dÃ©claration des var en amont sinon ; invalid expression
         int etape = 0;
         int compte = 0;
         float nombreaffiche = 0;
@@ -151,7 +148,7 @@ void main(void) {
                      break;
             case 1:
                  Delay_ms(1); // >10 us
-                 // arrêt impulsion (etat bas)
+                 // arrÃªt impulsion (etat bas)
                  LATB1_bit = 0;
                  etape++ ;
                  break;
@@ -179,7 +176,7 @@ void main(void) {
                 //Affichage de la distance
                 afficheNombre((int)nombreaffiche);
 
-                //convertion en chaine de char pour que la fonction Write puisse ecrire
+                //conversion en chaine de char pour que la fonction Write puisse ecrire
                 IntToStr((int)nombreaffiche, distChar);
                 // ecriture de la distance
                 UART1_Write_Text(distChar);
