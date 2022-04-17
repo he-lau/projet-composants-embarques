@@ -6,11 +6,15 @@
 </p>
 <br>
 
-*Acquisition de la distance avec l’écriture sur l’afficheur 7 segments
-*Acquisition de la température avec l’écriture sur l’afficheur 7 segments
-*Utilisation de l’UART et affichage de la valeur sur le terminal USART
-*Lecture du port série
-*Réalisation de l’interface web
-*L’ajout du module Bluetooth
-*Réalisation de l’interface Android
+* Acquisition de la distance avec l’écriture sur l’afficheur 7 segments
+* Acquisition de la température avec l’écriture sur l’afficheur 7 segments
+* Utilisation de l’UART et affichage de la valeur sur le terminal USART
+* Lecture du port série
+* Réalisation de l’interface web
+* L’ajout du module Bluetooth
+* Réalisation de l’interface Android
+
+## Interface web 
+
+
 
